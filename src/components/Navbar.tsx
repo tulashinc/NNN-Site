@@ -1,13 +1,13 @@
+import './navbar.css'
+
 const Navbar = () => {
 	return (
-		<nav>
-			<div>
-				<div>US EST</div>
-				<div>Left Menu</div>
-				<div>Home Logo</div>
-				<div>Right Menu</div>
-				<div>NST</div>
-			</div>
+		<nav className="navbar">
+			<div className="menu-item">EST</div>
+			<div className="menu-item">Left Menu</div>
+			<div className="menu-item">Home Logo</div>
+			<div className="menu-item">Right Menu</div>
+			<div className="menu-item">NST</div>
 		</nav>
 	)
 }

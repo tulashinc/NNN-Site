@@ -1,0 +1,16 @@
+.navbar {
+	background-color: #a24242;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	padding: 14px 20px;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	position: sticky;
+	top: 0;
+}
+
+.menu-item {
+	margin: 0 20px;
+}
